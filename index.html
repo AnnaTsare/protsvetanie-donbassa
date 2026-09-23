@@ -1,0 +1,470 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="АНО «Процветание Донбасса» — социальные и культурные проекты для жителей Донбасса.">
+  <title>Процветание Донбасса — социальные и культурные проекты</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Prata&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">К содержанию</a>
+
+  <header class="site-header" id="top">
+    <div class="container header-inner">
+      <a class="brand" href="#top" aria-label="Процветание Донбасса, на главную">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 48 48" role="img">
+            <path d="M24 42V20M24 28C15 27 10 21 9 12c9 0 15 4 15 12M24 23c7 0 12-5 14-13-8 0-13 4-14 10"/>
+            <path d="M13 37c7-3 15-3 22 0"/>
+          </svg>
+        </span>
+        <span class="brand-text">
+          <strong>Процветание Донбасса</strong>
+          <small>автономная некоммерческая организация</small>
+        </span>
+      </a>
+
+      <button class="menu-toggle" type="button" aria-label="Открыть меню" aria-expanded="false" aria-controls="main-nav">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="main-nav" id="main-nav" aria-label="Основная навигация">
+        <a href="#about">Об организации</a>
+        <a href="#projects">Проекты</a>
+        <a href="#new-project">Новый проект</a>
+        <a href="#research">Опрос</a>
+        <a href="#contacts">Контакты</a>
+        <button class="nav-help" type="button" data-help-open>Хочу помочь <span aria-hidden="true">↗</span></button>
+      </nav>
+
+      <button class="header-action help-button" type="button" data-help-open>Хочу помочь</button>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero">
+      <div class="hero-photo" role="img" aria-label="Творческое выступление участников культурной программы"></div>
+      <div class="hero-shade"></div>
+      <div class="container hero-content">
+        <p class="eyebrow light">Сохраняем важное. Создаём будущее.</p>
+        <h1>Там, где культура<br>объединяет людей</h1>
+        <p class="hero-lead">Поддерживаем социальные инициативы, сохраняем память и создаём пространство для развития жителей Донбасса.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects">Наши проекты <span aria-hidden="true">↗</span></a>
+          <a class="text-link light-link" href="#about">Узнать о нас <span aria-hidden="true">↓</span></a>
+        </div>
+      </div>
+      <div class="container hero-foot">
+        <span>Краснодонский муниципальный округ</span>
+        <span class="hero-line"></span>
+        <span>Луганская Народная Республика</span>
+      </div>
+    </section>
+
+    <section class="about section" id="about">
+      <div class="container about-grid">
+        <div class="section-heading reveal">
+          <p class="eyebrow">О нас</p>
+          <h2>Развиваем территорию через культуру и заботу</h2>
+        </div>
+        <div class="about-copy reveal">
+          <p class="lead">АНО «Процветание Донбасса» содействует социальному и культурному развитию региона.</p>
+          <p>Мы создаём проекты, которые соединяют людей, учреждения культуры и общественные инициативы. В центре нашей работы — бережное отношение к человеку, исторической памяти и традициям родного края.</p>
+          <a class="text-link" href="https://vk.ru/ano_protsvetanie_donbassa" target="_blank" rel="noopener">Наша страница ВКонтакте <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+
+      <div class="container focus-grid">
+        <article class="focus-card reveal">
+          <span class="focus-number">01</span>
+          <div class="focus-icon" aria-hidden="true">✦</div>
+          <h3>Культурное развитие</h3>
+          <p>Поддерживаем творческие инициативы и создаём условия для диалога поколений.</p>
+        </article>
+        <article class="focus-card reveal">
+          <span class="focus-number">02</span>
+          <div class="focus-icon" aria-hidden="true">◎</div>
+          <h3>Социальная поддержка</h3>
+          <p>Разрабатываем бережные форматы помощи и объединяем людей вокруг значимых задач.</p>
+        </article>
+        <article class="focus-card reveal">
+          <span class="focus-number">03</span>
+          <div class="focus-icon" aria-hidden="true">◇</div>
+          <h3>Сохранение памяти</h3>
+          <p>Рассказываем истории земляков и сохраняем их для будущих поколений.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="featured section" id="projects">
+      <div class="container">
+        <div class="project-kicker reveal">
+          <p class="eyebrow light">Реализованный проект</p>
+          <span>Передвижная выставка</span>
+        </div>
+        <div class="featured-grid">
+          <div class="featured-copy reveal">
+            <h2>Память<br>о Героях СВО</h2>
+            <p>Выставочный проект, посвящённый сохранению памяти о земляках. Экспозиция путешествует по учреждениям и общественным пространствам, становясь местом встреч, диалога и общей памяти.</p>
+            <button class="button button-outline" type="button" data-gallery-open>Смотреть фотографии <span aria-hidden="true">→</span></button>
+          </div>
+          <figure class="featured-image reveal">
+            <img src="9.jpg" alt="Посетители у стендов выставки «Память о Героях СВО»" loading="lazy">
+            <figcaption>Экспозиция проекта в Краснодонском муниципальном округе</figcaption>
+          </figure>
+        </div>
+        <div class="project-strip reveal" aria-label="Форматы проекта">
+          <span>Выставка</span><i></i><span>Встречи</span><i></i><span>Уроки памяти</span><i></i><span>Живой диалог</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="new-project section" id="new-project">
+      <div class="container">
+        <div class="new-project-head reveal">
+          <div>
+            <p class="eyebrow">Новый проект</p>
+            <h2>АНО «Процветание Донбасса» работает над новым проектом</h2>
+          </div>
+          <span class="status-pill"><i></i> В разработке</span>
+        </div>
+
+        <article class="announcement reveal">
+          <div class="announcement-main">
+            <p class="announcement-label">Проект 2026</p>
+            <h3>Подвиг солдата<br>в сердце женщины</h3>
+            <p class="announcement-intro">Бережный маршрут поддержки и общественного признания матерей и жён военнослужащих, участников и погибших защитников Отечества.</p>
+            <div class="announcement-meta">
+              <div><small>Территория</small><strong>Краснодонский муниципальный округ</strong></div>
+              <div><small>Планируемый пилот</small><strong>16 октября — 15 декабря 2026</strong></div>
+            </div>
+          </div>
+          <div class="announcement-aside">
+            <p class="quote-mark">“</p>
+            <p>Проект соединит выбранный самой участницей формат поддержки, профессиональную консультацию при необходимости и добровольную художественную фотосъёмку.</p>
+            <ul>
+              <li>участие без давления и обязательной публичности</li>
+              <li>отдельное согласие на портрет и личную историю</li>
+              <li>конфиденциальность и сопровождение куратора</li>
+            </ul>
+            <button class="text-link project-details-button" type="button" data-details-open>Подробнее о проекте <span aria-hidden="true">↗</span></button>
+          </div>
+        </article>
+        <p class="project-note reveal">Сейчас команда готовит документы, привлекает профильных специалистов и разрабатывает безопасный маршрут участия. Указанные сроки и показатели являются плановыми.</p>
+      </div>
+    </section>
+
+    <section class="research section" id="research" aria-labelledby="research-title">
+      <div class="container research-grid">
+        <div class="research-copy reveal">
+          <p class="eyebrow light">Онлайн-исследование</p>
+          <h2 id="research-title">Помогите сделать первый шаг бережным</h2>
+          <p>АНО «Процветание Донбасса» изучает, какой формат первого знакомства с проектом будет удобным, безопасным и уважительным для матерей и жён военнослужащих.</p>
+          <button class="button button-gold" type="button" data-survey-open>Пройти анонимный опрос <span aria-hidden="true">→</span></button>
+        </div>
+        <div class="research-facts reveal">
+          <div><strong>4</strong><span>коротких шага</span></div>
+          <div><strong>5–7</strong><span>минут на ответы</span></div>
+          <div><strong>Без</strong><span>запроса контактов</span></div>
+          <p>Участие добровольное. Можно пропустить любой вопрос или прекратить заполнение. Опрос не является психологической диагностикой.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="gallery-preview section" aria-labelledby="gallery-title">
+      <div class="container">
+        <div class="gallery-heading reveal">
+          <div>
+            <p class="eyebrow">Проекты в кадре</p>
+            <h2 id="gallery-title">События, которые нас объединяют</h2>
+          </div>
+          <button class="circle-button" type="button" data-gallery-open aria-label="Открыть фотогалерею">↗</button>
+        </div>
+        <div class="photo-grid">
+          <button class="photo photo-tall reveal" type="button" data-image="8.jpg" aria-label="Открыть фотографию выставки вечером"><img src="8.jpg" alt="Уличная выставка вечером" loading="lazy"></button>
+          <button class="photo reveal" type="button" data-image="15.jpg" aria-label="Открыть фотографию встречи со школьниками"><img src="15.jpg" alt="Встреча со школьниками у экспозиции" loading="lazy"></button>
+          <button class="photo reveal" type="button" data-image="6.jpg" aria-label="Открыть фотографию встречи жителей"><img src="6.jpg" alt="Жители на общественной встрече" loading="lazy"></button>
+        </div>
+        <div class="gallery-stories reveal">
+          <div class="gallery-stories-heading">
+            <h3>Новости и фотографии</h3>
+            <a class="text-link" href="https://vk.ru/ano_protsvetanie_donbassa" target="_blank" rel="noopener noreferrer">Все публикации ВКонтакте <span aria-hidden="true">↗</span></a>
+          </div>
+          <div class="story-grid">
+            <article class="story-card">
+              <a class="story-image" href="https://vk.ru/wall-222613429_291" target="_blank" rel="noopener noreferrer" aria-label="Открыть публикацию об ансамбле «Афган» во ВКонтакте"><img src="https://sun9-74.vkuserphoto.ru/s/v1/ig2/k-thjiC32OQRtpkV7S_wouQpk1hayT3-DdruRcdbo4fR8_YQ5MwpdxmZ1s0ImvciaIVc7sNvJhY3plxdcEKN5O3W.jpg?quality=95&amp;as=32x24,48x36,72x54,108x81,160x120,240x180,360x270,480x360,540x405,640x480,720x540,1080x810,1280x960,1440x1080,2560x1920&amp;from=bu&amp;cs=640x0" alt="Фотография выступления ансамбля «Афган»" loading="lazy"></a>
+              <div class="story-content"><span>Из сообщества АНО</span><h4>Выступление ансамбля «Афган»</h4><p>В ДК посёлка Новосветловка прозвучали песни вокально-инструментального ансамбля «Афган». Публикация рассказывает о творчестве коллектива и встрече со зрителями.</p><a class="text-link" href="https://vk.ru/wall-222613429_291" target="_blank" rel="noopener noreferrer">Читать в VK <span aria-hidden="true">↗</span></a></div>
+            </article>
+            <article class="story-card">
+              <a class="story-image" href="https://vk.ru/photo-222613429_457239225" target="_blank" rel="noopener noreferrer" aria-label="Открыть фотографию сообщества АНО во ВКонтакте"><img src="https://sun9-38.vkuserphoto.ru/s/v1/ig2/djDfkG9ueZKCdGa9emqhptbiD3v64-t_skv4_itmHFznTeTrQsy90QX1WaTJKLqFm0Y89oB0-xMWspmIT2bnI2XB.jpg?quality=95&amp;as=32x20,48x30,72x45,108x68,160x101,240x151,360x227,480x303,540x340,640x403,720x454,1080x681,1280x807,1440x908,1680x1059&amp;from=bu&amp;cs=640x0" alt="Иллюстрация «Сбор гуманитарной помощи» из сообщества АНО" loading="lazy"></a>
+              <div class="story-content"><span>Фото из сообщества АНО</span><h4>Сбор гуманитарной помощи</h4><p>Иллюстрация опубликована в сообществе «Процветание Донбасса». Подробности смотрите в оригинальном материале VK.</p><a class="text-link" href="https://vk.ru/photo-222613429_457239225" target="_blank" rel="noopener noreferrer">Смотреть в VK <span aria-hidden="true">↗</span></a></div>
+            </article>
+            <article class="story-card">
+              <a class="story-image" href="https://vk.ru/wall-119244879_48337" target="_blank" rel="noopener noreferrer" aria-label="Открыть публикацию о выставке «Память о Героях СВО» во ВКонтакте"><img src="https://sun9-32.vkuserphoto.ru/s/v1/ig2/sTLGfyP2AxdgP5CCnQXEodPPlWO1QZSaSJrsTAUdzkG8oyTRY-kdTtPGyBbIv-jJGmcIKfVOTNRf5NVxNkUWV4UQ.jpg?quality=95&amp;as=32x23,48x34,72x51,108x77,160x114,240x170,360x256,480x341,540x383,640x455,720x511,1080x767,1187x843&amp;from=bu&amp;cs=640x0" alt="Открытие выставки «Память о Героях СВО» в посёлке Новосветловка" loading="lazy"></a>
+              <div class="story-content"><span>Публикация администрации округа</span><h4>«Память о Героях СВО» в Новосветловке</h4><p>В посёлке Новосветловка открылась передвижная фотовыставка, посвящённая памяти защитников Отечества. Проект реализован при участии АНО «Процветание Донбасса».</p><a class="text-link" href="https://vk.ru/wall-119244879_48337" target="_blank" rel="noopener noreferrer">Читать в VK <span aria-hidden="true">↗</span></a></div>
+            </article>
+            <article class="story-card">
+              <a class="story-image" href="https://vk.ru/wall-222613429_277" target="_blank" rel="noopener noreferrer" aria-label="Открыть видеосюжет «Память о Героях СВО» во ВКонтакте"><img src="https://iv.okcdn.ru/getVideoPreview?id=7469252610744&amp;idx=4&amp;type=39&amp;tkn=anSvyi2KffqrbqqcojpduQ3YEnw&amp;fn=vid_x" alt="Превью видеосюжета «Память о Героях СВО»" loading="lazy"></a>
+              <div class="story-content"><span>Видео · 1:34</span><h4>Коротко: память о Героях СВО</h4><p>Видеосюжет о проекте, который сохраняет память о героях специальной военной операции.</p><a class="text-link" href="https://vk.ru/wall-222613429_277" target="_blank" rel="noopener noreferrer">Смотреть в VK <span aria-hidden="true">↗</span></a></div>
+            </article>
+            <article class="story-card">
+              <a class="story-image" href="https://vk.ru/wall-222613429_272" target="_blank" rel="noopener noreferrer" aria-label="Открыть публикацию о группе «Здоровье» во ВКонтакте"><img src="https://sun9-70.userapi.com/s/v1/ig2/xTSxRbb2WlsLsKaPJLTuoSYfx2KpIkoEYxQ2SvU4DQgIpeWq5_wzv8G6-TH9dKz10oVaLiUPiGfiHf-n1lh_Gsef.jpg?quality=95&amp;as=32x24,48x36,72x54,108x81,160x120,240x180,360x270,480x360,540x405,640x480,720x540,1080x810,1280x960&amp;from=bu&amp;cs=640x0" alt="Занятие участников группы «Здоровье»" loading="lazy"></a>
+              <div class="story-content"><span>Фото из сообщества АНО</span><h4>Занятия в группе «Здоровье»</h4><p>Фотоматериал о занятиях участников оздоровительной группы.</p><a class="text-link" href="https://vk.ru/wall-222613429_272" target="_blank" rel="noopener noreferrer">Смотреть в VK <span aria-hidden="true">↗</span></a></div>
+            </article>
+            <article class="story-card">
+              <a class="story-image" href="https://vk.ru/wall-222613429_270" target="_blank" rel="noopener noreferrer" aria-label="Открыть публикацию о проекте при поддержке Президентского фонда культурных инициатив"><img src="https://sun9-4.userapi.com/s/v1/ig2/oe1htidMN1gtMX1OLiyoovm3o2pTh_jlA-4EG5VenbwAa-iQE2BoyvL83MpCJ5i1H1vIcIO0fePy5djWEDClwFEc.jpg?quality=95&amp;as=32x21,48x32,72x48,108x72,160x107,240x160,360x240,480x320,540x360,640x427,720x480,1080x720,1280x853,1440x960,2560x1707&amp;from=bu&amp;cs=640x0" alt="Фотография проекта при поддержке Президентского фонда культурных инициатив" loading="lazy"></a>
+              <div class="story-content"><span>Фото из сообщества АНО</span><h4>Проект при поддержке ПФКИ</h4><p>Фотоматериал о реализации инициативы при поддержке Президентского фонда культурных инициатив.</p><a class="text-link" href="https://vk.ru/wall-222613429_270" target="_blank" rel="noopener noreferrer">Смотреть в VK <span aria-hidden="true">↗</span></a></div>
+            </article>
+            <article class="story-card">
+              <a class="story-image" href="https://vk.ru/wall-222613429_264" target="_blank" rel="noopener noreferrer" aria-label="Открыть публикацию об открытии выставки в Суходольске"><img src="https://sun9-69.userapi.com/s/v1/ig2/0U4MRxLWHMi_qb3SZwK_CLTtu8QmGvLrE48IyXpcGyDS48m5Tf-VYSXCO1HGSl-Q5WHMTQtf_s-5GDrU1cvy4op3.jpg?quality=95&amp;as=32x24,48x36,72x54,108x81,160x120,240x180,360x270,480x360,540x405,640x480,720x540,1080x810,1280x960&amp;from=bu&amp;cs=640x0" alt="Открытие выставки «Память о Героях СВО» в Суходольске" loading="lazy"></a>
+              <div class="story-content"><span>Фотоотчёт</span><h4>Открытие выставки в Суходольске</h4><p>Передвижная выставка «Память о Героях СВО» открылась на главной площади города Суходольска.</p><a class="text-link" href="https://vk.ru/wall-222613429_264" target="_blank" rel="noopener noreferrer">Читать в VK <span aria-hidden="true">↗</span></a></div>
+            </article>
+            <article class="story-card">
+              <a class="story-image" href="https://vk.ru/wall-222613429_257" target="_blank" rel="noopener noreferrer" aria-label="Открыть видеорепортаж о выставке в Суходольске"><img src="https://iv.okcdn.ru/getVideoPreview?id=7118086015612&amp;idx=0&amp;type=39&amp;tkn=1ue-iXWRyYj3luunilqiKl0W_Ds&amp;fn=vid_x" alt="Превью видеорепортажа о выставке в Суходольске" loading="lazy"></a>
+              <div class="story-content"><span>Видео · 1:23</span><h4>Выставка в Суходольске</h4><p>Репортаж о презентации 35 стендов с портретами погибших военнослужащих и памятных видеоматериалов.</p><a class="text-link" href="https://vk.ru/wall-222613429_257" target="_blank" rel="noopener noreferrer">Смотреть в VK <span aria-hidden="true">↗</span></a></div>
+            </article>
+            <article class="story-card">
+              <a class="story-image" href="https://vk.ru/wall-222613429_244" target="_blank" rel="noopener noreferrer" aria-label="Открыть фильм «Память о Героях СВО»"><img src="https://iv.okcdn.ru/getVideoPreview?id=7058533059238&amp;idx=9&amp;type=39&amp;tkn=6wEQL5cvMYEo7jl8AZsTx29J5gs&amp;fn=vid_x" alt="Превью фильма «Память о Героях СВО»" loading="lazy"></a>
+              <div class="story-content"><span>Видео · 12:08</span><h4>Фильм «Память о Героях СВО»</h4><p>Большой видеоматериал проекта, реализованного при поддержке Президентского фонда культурных инициатив.</p><a class="text-link" href="https://vk.ru/wall-222613429_244" target="_blank" rel="noopener noreferrer">Смотреть в VK <span aria-hidden="true">↗</span></a></div>
+            </article>
+            <article class="story-card">
+              <a class="story-image" href="https://vk.ru/wall-222613429_243" target="_blank" rel="noopener noreferrer" aria-label="Открыть видеоматериал проекта во ВКонтакте"><img src="https://iv.okcdn.ru/getVideoPreview?id=6953837922851&amp;idx=7&amp;type=39&amp;tkn=02RRPchtS-TbNrYKRy2tL9sXegg&amp;fn=vid_x" alt="Превью видеоматериала проекта" loading="lazy"></a>
+              <div class="story-content"><span>Видео · 1:33</span><h4>Видеоматериал проекта</h4><p>Сюжет о культурной инициативе, поддержанной Президентским фондом культурных инициатив.</p><a class="text-link" href="https://vk.ru/wall-222613429_243" target="_blank" rel="noopener noreferrer">Смотреть в VK <span aria-hidden="true">↗</span></a></div>
+            </article>
+            <article class="story-card">
+              <a class="story-image" href="https://vk.ru/wall-222613429_240" target="_blank" rel="noopener noreferrer" aria-label="Открыть фотоматериал проекта во ВКонтакте"><img src="https://sun9-48.userapi.com/s/v1/ig2/u7CdSZ3lDNsRie6Mkr_xIWe3EvP_YlfqTgLW4B5yofjxOlmbQa4E7dBY2PA-3ph_i1CPs9Jg_yi6KeqHh6MWDKTy.jpg?quality=95&amp;as=32x21,48x32,72x48,108x72,160x107,240x160,360x240,480x320,540x360,640x427,720x480,1080x720,1280x853,1440x960,2560x1707&amp;from=bu&amp;cs=640x0" alt="Фотоматериал культурного проекта" loading="lazy"></a>
+              <div class="story-content"><span>Фото из сообщества АНО</span><h4>Культурная инициатива в кадре</h4><p>Фотография из проекта, реализуемого при поддержке Президентского фонда культурных инициатив.</p><a class="text-link" href="https://vk.ru/wall-222613429_240" target="_blank" rel="noopener noreferrer">Смотреть в VK <span aria-hidden="true">↗</span></a></div>
+            </article>
+            <article class="story-card">
+              <a class="story-image" href="https://vk.ru/wall-222613429_239" target="_blank" rel="noopener noreferrer" aria-label="Открыть видеорепортаж проекта во ВКонтакте"><img src="https://iv.okcdn.ru/getVideoPreview?id=7016144833157&amp;idx=14&amp;type=39&amp;tkn=QRntTjnSVaIgebo02ss8ae4ZsSk&amp;fn=vid_x" alt="Превью видеорепортажа проекта" loading="lazy"></a>
+              <div class="story-content"><span>Видео · 9:34</span><h4>Репортаж о культурном проекте</h4><p>Развёрнутый видеоматериал об инициативе, поддержанной Президентским фондом культурных инициатив.</p><a class="text-link" href="https://vk.ru/wall-222613429_239" target="_blank" rel="noopener noreferrer">Смотреть в VK <span aria-hidden="true">↗</span></a></div>
+            </article>
+            <article class="story-card">
+              <a class="story-image" href="https://vk.ru/wall-222613429_237" target="_blank" rel="noopener noreferrer" aria-label="Открыть короткий сюжет «Память о Героях СВО»"><img src="https://iv.okcdn.ru/getVideoPreview?id=7088743975465&amp;idx=2&amp;type=39&amp;tkn=dlwyjNn1V-Ujft4MSPhR-erVCjM&amp;fn=vid_x" alt="Превью короткого сюжета «Память о Героях СВО»" loading="lazy"></a>
+              <div class="story-content"><span>Видео · 1:06</span><h4>Память о Героях СВО</h4><p>Короткий видеосюжет о патриотическом выставочном проекте.</p><a class="text-link" href="https://vk.ru/wall-222613429_237" target="_blank" rel="noopener noreferrer">Смотреть в VK <span aria-hidden="true">↗</span></a></div>
+            </article>
+            <article class="story-card">
+              <a class="story-image" href="https://vk.ru/wall-222613429_226" target="_blank" rel="noopener noreferrer" aria-label="Открыть сюжет «В память о героях-земляках»"><img src="https://iv.okcdn.ru/getVideoPreview?id=7545632918171&amp;idx=0&amp;type=39&amp;tkn=EuNCCpwxnoa5oZ8WHlzh8lL3moE&amp;fn=vid_x" alt="Превью сюжета «В память о героях-земляках»" loading="lazy"></a>
+              <div class="story-content"><span>Видео · 3:57</span><h4>В память о героях-земляках</h4><p>Сюжет о создании патриотической выставки, посвящённой героям СВО из Краснодонского округа.</p><a class="text-link" href="https://vk.ru/wall-222613429_226" target="_blank" rel="noopener noreferrer">Смотреть в VK <span aria-hidden="true">↗</span></a></div>
+            </article>
+            <article class="story-card">
+              <a class="story-image" href="https://vk.ru/wall-222613429_223" target="_blank" rel="noopener noreferrer" aria-label="Открыть видео о реализации проекта «Память о Героях СВО»"><img src="https://iv.okcdn.ru/getVideoPreview?id=7876884826861&amp;idx=1&amp;type=39&amp;tkn=1FpD0-0MeS6U3bdGXD0fCKJNUB4&amp;fn=vid_x" alt="Превью видео о реализации проекта «Память о Героях СВО»" loading="lazy"></a>
+              <div class="story-content"><span>Видео · 3:49</span><h4>Реализация проекта «Память о Героях СВО»</h4><p>Видео о ходе проекта при поддержке Президентского фонда культурных инициатив.</p><a class="text-link" href="https://vk.ru/wall-222613429_223" target="_blank" rel="noopener noreferrer">Смотреть в VK <span aria-hidden="true">↗</span></a></div>
+            </article>
+            <article class="story-card">
+              <a class="story-image" href="https://vk.ru/wall-222613429_221" target="_blank" rel="noopener noreferrer" aria-label="Открыть публикацию о сотрудничестве с Ростовскими НКО"><img src="https://sun9-65.userapi.com/s/v1/ig2/qBldkPtDAgGjSybl9iH2BWGp5teobRDV3ujENcTkR2azfJZrAbmswvRkSQ9hIe-3UBJdJx8Wmxt8eycnQFbxvUV2.jpg?quality=95&amp;as=32x24,48x36,72x54,108x81,160x120,240x180,360x270,480x360,540x405,640x480,720x540,1080x810,1280x960&amp;from=bu&amp;cs=640x0" alt="Подписание соглашения о сотрудничестве между некоммерческими организациями" loading="lazy"></a>
+              <div class="story-content"><span>Сотрудничество</span><h4>Партнёрство с Ростовскими НКО</h4><p>Подписано соглашение с АНО «Мои года — моё богатство» и намечены идеи социальных проектов для Краснодонского округа.</p><a class="text-link" href="https://vk.ru/wall-222613429_221" target="_blank" rel="noopener noreferrer">Читать в VK <span aria-hidden="true">↗</span></a></div>
+            </article>
+            <article class="story-card">
+              <a class="story-image" href="https://vk.ru/wall-222613429_213" target="_blank" rel="noopener noreferrer" aria-label="Открыть публикацию о проектной мастерской в Тюмени"><img src="https://sun9-29.userapi.com/s/v1/ig2/YIR4RcgbTfBUfdlyvadx0OBSp0IROLD-PAbdhQ-ZffaR02Vs3SNuEZQ5Wv0-B1RMefjLfv-P4A_jVRWkwCOH2EAF.jpg?quality=95&amp;as=32x24,48x36,72x54,108x81,160x120,240x180,360x270,480x360,540x405,640x480,720x540,1080x810,1280x960,1440x1080,2560x1920&amp;from=bu&amp;cs=640x0" alt="Участники проектной мастерской ресурсных центров в Тюмени" loading="lazy"></a>
+              <div class="story-content"><span>Обмен опытом</span><h4>Проектная мастерская в Тюмени</h4><p>АНО приняла участие в двухдневной мастерской Уральской сети ресурсных центров для социально ориентированных НКО.</p><a class="text-link" href="https://vk.ru/wall-222613429_213" target="_blank" rel="noopener noreferrer">Читать в VK <span aria-hidden="true">↗</span></a></div>
+            </article>
+            <article class="story-card">
+              <a class="story-image" href="https://vk.ru/wall-222613429_200" target="_blank" rel="noopener noreferrer" aria-label="Открыть видеосюжет «Проекты ради людей»"><img src="https://iv.okcdn.ru/getVideoPreview?id=6360046701087&amp;idx=1&amp;type=39&amp;tkn=steUvXmj_Z0RaCk5hrrlgp9bm5k&amp;fn=vid_x" alt="Превью видеосюжета о проектах для людей" loading="lazy"></a>
+              <div class="story-content"><span>Видео · 3:04</span><h4>Проекты ради людей</h4><p>Делегация Благотворительного фонда развития города Тюмени посетила ЛНР, Краснодон и Молодогвардейск для обмена опытом в сфере НКО.</p><a class="text-link" href="https://vk.ru/wall-222613429_200" target="_blank" rel="noopener noreferrer">Смотреть в VK <span aria-hidden="true">↗</span></a></div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-band" id="contacts">
+      <div class="container contact-grid reveal">
+        <div>
+          <p class="eyebrow light">Будем на связи</p>
+          <h2>Вместе создаём среду,<br>в которой хочется жить</h2>
+        </div>
+        <div class="contact-action">
+          <p>Следите за новостями, проектами и анонсами мероприятий на нашей официальной странице.</p>
+          <div class="contact-buttons">
+            <button class="button button-gold" type="button" data-help-open>Хочу помочь <span aria-hidden="true">♡</span></button>
+            <a class="button button-light" href="https://vk.ru/ano_protsvetanie_donbassa" target="_blank" rel="noopener">Перейти во ВКонтакте <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-top">
+      <a class="brand footer-brand" href="#top">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 48 48"><path d="M24 42V20M24 28C15 27 10 21 9 12c9 0 15 4 15 12M24 23c7 0 12-5 14-13-8 0-13 4-14 10"/><path d="M13 37c7-3 15-3 22 0"/></svg>
+        </span>
+        <span class="brand-text"><strong>Процветание Донбасса</strong><small>социальное и культурное развитие</small></span>
+      </a>
+      <div class="footer-nav"><a href="#about">Об организации</a><a href="#projects">Проекты</a><a href="#new-project">Новый проект</a><a href="#research">Опрос</a></div>
+    </div>
+    <div class="container footer-bottom">
+      <span>© 2026 АНО «Процветание Донбасса»</span>
+      <span>Прототип официального сайта</span>
+    </div>
+  </footer>
+
+  <dialog class="modal" id="details-modal">
+    <button class="modal-close" type="button" data-modal-close aria-label="Закрыть">×</button>
+    <p class="eyebrow">Проект в разработке</p>
+    <h2>Подвиг солдата в сердце женщины</h2>
+    <p>Проект создаёт безопасный и понятный маршрут для матерей и жён военнослужащих: персональное приглашение, вводную беседу и возможность самостоятельно выбрать формат участия.</p>
+    <div class="modal-grid">
+      <div><span>01</span><strong>Поддержка</strong><p>Закрытая встреча или онлайн-формат, профессиональная консультация при необходимости.</p></div>
+      <div><span>02</span><strong>Признание</strong><p>Добровольная художественная фотосъёмка и представление истории только по отдельному согласию.</p></div>
+      <div><span>03</span><strong>Сопровождение</strong><p>Назначенный куратор, понятный следующий шаг и бережная обратная связь.</p></div>
+    </div>
+    <p class="modal-disclaimer">Проект не заменяет медицинскую или психологическую помощь. Работа с кризисными состояниями предполагается только с участием квалифицированных специалистов.</p>
+  </dialog>
+
+  <dialog class="modal help-modal" id="help-modal">
+    <button class="modal-close" type="button" data-help-close aria-label="Закрыть">×</button>
+    <p class="eyebrow">Поддержать организацию</p>
+    <h2>Хочу помочь</h2>
+    <p class="help-intro">Ваша поддержка поможет нам развивать социальные и культурные проекты для жителей Донбасса.</p>
+    <div class="requisites-placeholder">
+      <span class="placeholder-icon" aria-hidden="true">♡</span>
+      <div>
+        <strong>Реквизиты появятся здесь</strong>
+        <p>Мы готовим данные для безопасного благотворительного перевода. До их публикации денежные средства через сайт не принимаются.</p>
+      </div>
+    </div>
+    <p class="help-contact">Хотите предложить партнёрство или другую помощь?</p>
+    <a class="button button-primary help-vk" href="https://vk.ru/ano_protsvetanie_donbassa" target="_blank" rel="noopener">Написать во ВКонтакте <span aria-hidden="true">↗</span></a>
+  </dialog>
+
+  <dialog class="survey-modal" id="survey-modal">
+    <button class="modal-close" type="button" data-survey-close aria-label="Закрыть опрос">×</button>
+    <div class="survey-header">
+      <div>
+        <p class="eyebrow">Анонимное исследование</p>
+        <h2>От приглашения к поддержке</h2>
+      </div>
+      <div class="survey-progress" aria-live="polite">
+        <span><b data-survey-current>1</b> / 4</span>
+        <div><i data-survey-progress></i></div>
+      </div>
+    </div>
+
+    <form id="research-form" novalidate>
+      <fieldset class="survey-step active" data-survey-step="1">
+        <legend>Добровольное участие</legend>
+        <p class="step-intro">Мы хотим понять, что помогает или мешает сделать первый шаг к участию. Не указывайте имена, контакты, сведения о здоровье и подробности боевых событий.</p>
+        <label class="consent-card">
+          <input type="checkbox" name="consent" required>
+          <span><strong>Я старше 18 лет и добровольно участвую в опросе</strong><small>Я понимаю цель исследования и могу прекратить заполнение в любой момент.</small></span>
+        </label>
+        <div class="question-block">
+          <p class="question-title">К какой группе вы себя относите?</p>
+          <div class="choice-grid">
+            <label class="choice"><input type="radio" name="role" value="mother"><span>Мать военнослужащего</span></label>
+            <label class="choice"><input type="radio" name="role" value="wife"><span>Жена военнослужащего</span></label>
+            <label class="choice"><input type="radio" name="role" value="relative"><span>Другая близкая родственница</span></label>
+            <label class="choice"><input type="radio" name="role" value="skip"><span>Предпочитаю не отвечать</span></label>
+          </div>
+        </div>
+        <div class="question-block">
+          <p class="question-title">Где вы живёте?</p>
+          <div class="choice-grid compact">
+            <label class="choice"><input type="radio" name="location" value="city"><span>В городе</span></label>
+            <label class="choice"><input type="radio" name="location" value="village"><span>В посёлке или селе</span></label>
+            <label class="choice"><input type="radio" name="location" value="skip"><span>Не хочу отвечать</span></label>
+          </div>
+        </div>
+      </fieldset>
+
+      <fieldset class="survey-step" data-survey-step="2" hidden>
+        <legend>Первый шаг</legend>
+        <p class="step-intro">Можно выбрать несколько вариантов.</p>
+        <div class="question-block" data-required-group="barriers">
+          <p class="question-title">Что может помешать вам принять приглашение на первую встречу?</p>
+          <div class="choice-list">
+            <label class="choice"><input type="checkbox" name="barriers" value="publicity"><span>Опасение огласки или нежелательного внимания</span></label>
+            <label class="choice"><input type="checkbox" name="barriers" value="trust"><span>Недоверие к формальным мероприятиям</span></label>
+            <label class="choice"><input type="checkbox" name="barriers" value="unclear"><span>Непонятно, что будет происходить и кто отвечает за встречу</span></label>
+            <label class="choice"><input type="checkbox" name="barriers" value="distance"><span>Сложно добраться до места проведения</span></label>
+            <label class="choice"><input type="checkbox" name="barriers" value="talk"><span>Сейчас я не готова говорить о личном</span></label>
+            <label class="choice"><input type="checkbox" name="barriers" value="none"><span>Ничего из перечисленного</span></label>
+            <label class="choice"><input type="checkbox" name="barriers" value="skip"><span>Предпочитаю не отвечать</span></label>
+          </div>
+          <p class="survey-error" role="alert">Выберите хотя бы один вариант.</p>
+        </div>
+        <div class="question-block">
+          <label class="question-title" for="barrier-other">Другой барьер или условие <small>(необязательно)</small></label>
+          <textarea id="barrier-other" name="barrier_other" rows="3" maxlength="400" placeholder="Не указывайте персональные или медицинские сведения"></textarea>
+        </div>
+      </fieldset>
+
+      <fieldset class="survey-step" data-survey-step="3" hidden>
+        <legend>Удобный формат</legend>
+        <div class="question-block">
+          <p class="question-title">От кого было бы комфортнее получить первое приглашение?</p>
+          <div class="choice-grid">
+            <label class="choice"><input type="radio" name="invitation" value="known"><span>От знакомого специалиста или куратора</span></label>
+            <label class="choice"><input type="radio" name="invitation" value="community"><span>От общественной организации</span></label>
+            <label class="choice"><input type="radio" name="invitation" value="culture"><span>От учреждения культуры</span></label>
+            <label class="choice"><input type="radio" name="invitation" value="peer"><span>От участницы похожего проекта</span></label>
+            <label class="choice"><input type="radio" name="invitation" value="skip"><span>Предпочитаю не отвечать</span></label>
+          </div>
+        </div>
+        <div class="question-block" data-required-group="formats">
+          <p class="question-title">Какие форматы могли бы вам подойти?</p>
+          <div class="choice-list two-columns">
+            <label class="choice"><input type="checkbox" name="formats" value="online"><span>Индивидуальная онлайн-встреча</span></label>
+            <label class="choice"><input type="checkbox" name="formats" value="closed"><span>Закрытая камерная встреча без съёмки</span></label>
+            <label class="choice"><input type="checkbox" name="formats" value="consultation"><span>Консультация профильного специалиста</span></label>
+            <label class="choice"><input type="checkbox" name="formats" value="photo"><span>Добровольная фотосъёмка</span></label>
+            <label class="choice"><input type="checkbox" name="formats" value="community"><span>Закрытое сообщество взаимной поддержки</span></label>
+            <label class="choice"><input type="checkbox" name="formats" value="skip"><span>Пока не готова выбирать</span></label>
+          </div>
+          <p class="survey-error" role="alert">Выберите хотя бы один вариант.</p>
+        </div>
+      </fieldset>
+
+      <fieldset class="survey-step" data-survey-step="4" hidden>
+        <legend>Безопасность и доверие</legend>
+        <div class="question-block">
+          <p class="question-title">Какой уровень публичности для вас приемлем?</p>
+          <div class="choice-list">
+            <label class="choice"><input type="radio" name="publicity" value="none"><span>Только непубличная поддержка, без фото и истории</span></label>
+            <label class="choice"><input type="radio" name="publicity" value="photo"><span>Можно показать портрет, но без личной истории</span></label>
+            <label class="choice"><input type="radio" name="publicity" value="full"><span>Готова рассмотреть портрет и историю после отдельного согласования</span></label>
+            <label class="choice"><input type="radio" name="publicity" value="unsure"><span>Пока не знаю, хочу обсудить с куратором</span></label>
+            <label class="choice"><input type="radio" name="publicity" value="skip"><span>Предпочитаю не отвечать</span></label>
+          </div>
+        </div>
+        <div class="question-block">
+          <label class="question-title" for="safe-condition">Что помогло бы вам почувствовать безопасность и доверие? <small>(необязательно)</small></label>
+          <textarea id="safe-condition" name="safe_condition" rows="4" maxlength="600" placeholder="Например: заранее знать программу встречи или иметь возможность прийти с близким человеком"></textarea>
+        </div>
+        <div class="survey-notice">
+          <strong>Важно перед отправкой</strong>
+          <p>Это демонстрационная версия опроса. Ответы пока не передаются и не сохраняются. Сбор данных начнётся только после подключения защищённого хранилища и утверждения порядка обработки информации.</p>
+        </div>
+      </fieldset>
+
+      <div class="survey-success" data-survey-success hidden>
+        <span aria-hidden="true">✓</span>
+        <h3>Спасибо за участие</h3>
+        <p>Вы прошли демонстрационную версию опроса. Ответы не были отправлены или сохранены.</p>
+        <button class="button button-primary" type="button" data-survey-finish>Закрыть</button>
+      </div>
+
+      <div class="survey-controls" data-survey-controls>
+        <button class="survey-back" type="button" data-survey-back disabled>Назад</button>
+        <button class="button button-primary" type="button" data-survey-next>Продолжить <span aria-hidden="true">→</span></button>
+        <button class="button button-primary" type="submit" data-survey-submit hidden>Завершить опрос <span aria-hidden="true">✓</span></button>
+      </div>
+    </form>
+  </dialog>
+
+  <dialog class="lightbox" id="gallery-modal">
+    <button class="modal-close lightbox-close" type="button" data-gallery-close aria-label="Закрыть">×</button>
+    <button class="gallery-arrow prev" type="button" data-gallery-prev aria-label="Предыдущая фотография">←</button>
+    <figure><img src="8.jpg" alt="Фотография проекта" id="lightbox-image"><figcaption id="lightbox-caption"></figcaption></figure>
+    <button class="gallery-arrow next" type="button" data-gallery-next aria-label="Следующая фотография">→</button>
+  </dialog>
+</body>
+</html>
