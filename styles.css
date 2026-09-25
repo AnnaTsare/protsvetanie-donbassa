@@ -113,6 +113,7 @@ button { color: inherit; font: inherit; }
 .announcement-aside li::before { position: absolute; left: 2px; color: var(--green-soft); content: "✓"; }
 .announcement-aside .text-link { align-self: flex-start; }
 .project-note { max-width: 720px; margin: 24px 0 0 auto; color: #69736d; font-size: 12px; }
+.project-download { display: flex; width: fit-content; margin: 24px 0 0 auto; color: white; background: var(--green); }
 
 .research { position: relative; color: white; background: linear-gradient(105deg, rgba(13,48,35,.97) 0%, rgba(13,48,35,.9) 55%, rgba(13,48,35,.58) 100%), url("16.jpg") center / cover; }
 .research-grid { display: grid; min-height: 400px; grid-template-columns: 1.25fr .75fr; gap: 11%; align-items: center; }
