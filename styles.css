@@ -142,6 +142,10 @@ button { color: inherit; font: inherit; }
 .story-image { display: block; height: 220px; overflow: hidden; background: var(--cream); }
 .story-image img { width: 100%; height: 100%; object-fit: cover; transition: transform .4s; }
 .story-image:hover img { transform: scale(1.04); }
+.story-image-project { position: relative; display: flex; padding: 25px; color: white; background: linear-gradient(145deg, #183d2e, #35654b); flex-direction: column; justify-content: space-between; }
+.story-image-project .story-image-label { color: var(--gold); font-size: 10px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; }
+.story-image-project strong { position: relative; z-index: 1; font-family: var(--serif); font-size: clamp(23px, 2.3vw, 29px); font-weight: 400; line-height: 1.35; }
+.story-image-symbol { position: absolute; right: 18px; bottom: -55px; color: rgba(255,255,255,.1); font-family: var(--serif); font-size: 190px; line-height: 1; }
 .story-content { display: flex; padding: 23px; flex: 1; flex-direction: column; align-items: flex-start; }
 .story-content > span { color: var(--green-soft); font-size: 10px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; }
 .story-content h4 { margin: 15px 0 10px; font-family: var(--serif); font-size: 21px; font-weight: 400; line-height: 1.35; }
